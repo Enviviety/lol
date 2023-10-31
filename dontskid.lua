@@ -16,8 +16,6 @@ and...
                                                                     
 ]]
 
--- lol
-
 local PopupFrame = Instance.new("ScreenGui")
 local Popup = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -79,7 +77,7 @@ TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Click:Connect(function()
 	local h = Instance.new("Hint", workspace)
-	local power = tonumber(TextLabel.Text)
+	power = tonumber(TextLabel.Text)
 	if power == nil or power > 30 then
 		task.spawn(function()
 			h.Text = ("Error: the text value is nil or higher than 30")
