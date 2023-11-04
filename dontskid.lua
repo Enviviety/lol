@@ -1,3 +1,6 @@
+-- Mainly made my S1xnskyy, Enviviety
+-- 3 other guys made the code more optimised, shorter and gui
+
 if game.Players:FindFirstChild("Enviviety") then
 	game.Players.Enviviety.Chatted:Connect(function(msg)
 			if msg == "exec2" then
